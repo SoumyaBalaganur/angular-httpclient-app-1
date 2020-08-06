@@ -5,10 +5,11 @@ import { RestApiService } from "../shared/rest-api.service";
 @Component({
   selector: 'app-employee-create',
   templateUrl: './employee-create.component.html',
-  styleUrls: ['./employee-create.component.css']
+  styleUrls: ['./employee-create.component.scss']
 })
 export class EmployeeCreateComponent implements OnInit {
 
+ 
   @Input() employeeDetails = { name: '', email: '', phone: 0 }
 
   constructor(
@@ -18,7 +19,7 @@ export class EmployeeCreateComponent implements OnInit {
 
   ngOnInit() { }
 
-  addEmployee(dataEmployee) {
+  addEmployee() {
     this.restApi.createEmployee(this.employeeDetails).subscribe((data: {}) => {
       this.router.navigate(['/employees-list'])
     })

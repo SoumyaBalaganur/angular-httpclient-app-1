@@ -1,28 +1,16 @@
 {
   "employees": [
     {
-      "id": 1,
-      "name": "Tony Stark",
-      "email": "tony@hola.com",
-      "phone": "001-123-4567"
-    },
-    {
       "id": 2,
-      "name": "Black Widow",
-      "email": "black-widow@mcu.com",
-      "phone": "001-123-4568"
+      "name": "Soumya Balaganur",
+      "email": "soumyasb39@gmail.com",
+      "phone": "+18892815148"
     },
     {
-      "name": "a",
-      "email": "a",
-      "phone": 0,
+      "name": "gello",
+      "email": "heonl",
+      "phone": "78",
       "id": 3
-    },
-    {
-      "name": "a",
-      "email": "a",
-      "phone": "011",
-      "id": 4
     }
   ]
 }
